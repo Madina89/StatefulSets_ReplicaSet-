@@ -32,8 +32,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: fbender/wordpress-4-apache
-
+        image: wordpress
         ports:
         - name: wordpress 
           containerPort: 80
